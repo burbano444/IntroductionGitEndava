@@ -1,6 +1,8 @@
 # IntroductionGitEndava
 This is for a class of GIT in ENDAVA internship
 
+The next text is the solution of the content proposed in next page [Learning Git](https://learngitbranching.js.org/).
+
 And next, I put the commands and a short explanation of them:
 
 # PART 1:
