@@ -7,8 +7,10 @@ And next, I put the commands and a short explanation of them:
 
 # PART 1:
 ## EXCERCISE 1
+### git commit
+asd
 ### git commit  
-### git commit  
+asd
 
 ## EXCERCISE 2
 ### git checkout -b bugFix  
