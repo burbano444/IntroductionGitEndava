@@ -40,7 +40,7 @@ And to continue, we combine in the branch main, the branch bugFix, its important
 ### git checkout bugFix
 1.3 excercise command (We switch to bugFix branch)
 ### git rebase main
-With this command, we move the base of the actual branch to another branch not without before create another snap, in this example, the branch bugFix create a new snap but the pointer bugFix mark the last snap of main like a father
+With this command, we move the base of the current branch to another branch not without before create another snap, in this example, the branch bugFix create a new snap but the pointer bugFix mark the last snap of main like a father
 
 # PART 2: Ramping Up 
 ## EXCERCISE 1 Detach yo' HEAD
@@ -70,6 +70,7 @@ Having diferences with reset command, the revert command is advancer, because in
 # PART 3 Moving Work Around
 ## EXCERCISE 1 Cherry-pick Intro
 ### git cherry-pick C3 C4 C7
+Cherry-pick command is very useful to copy a selected commits below the current pointer HEAD, in this example, we take the commits C3, C4 and C7 to put under main; this can be used in a project to select the besties "cherrys" of the project, and put them in the main branch
 
 ## EXCERCISE 2 Interactive Rebase Intro
 ### git rebase -i HEAD~4
