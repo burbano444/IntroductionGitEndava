@@ -45,10 +45,11 @@ With this command, we move the base of the actual branch to another branch not w
 # PART 2: Ramping Up 
 ## EXCERCISE 1 Detach yo' HEAD
 ### git checkout C4
-We use git checkout before a name of snap (or ID number like we viewed in class) to put the pointer in those snap, in this case HEAD becomes the new pointer, and it's different of the pointer of the branches
+We use git checkout before a name of snap (or ID number like we viewed in class) to put the pointer in those snap, in this case HEAD becomes the new pointer, and it's different of the pointer of the branches (Detach your HEAD)
 
 ## EXCERCISE 2 Relative Refs (^)
 ### git checkout bugFix^
+In this case, we can do the "detach of head" with another reference: the checkout, predisposes us to move to another place, bugFix is the pointer of branch (or snap), but it isnt all, the character ^ thell us that we go to put the head in the father snap of bugFix snap (Relative references, because isn't direct refference)
 
 ## EXCERCISE 3 Relative Refs #2 (~)
 ### git checkout HEAD^
