@@ -8,9 +8,9 @@ And next, I put the commands and a short explanation of them:
 # PART 1: Introduction Sequence 
 ## EXCERCISE 1: Introduction to Git Commits
 ### git commit
-asd
+We can use commit to upload pic of the changes (that git represents), from stagin area until repository area in local machine
 ### git commit
-asd
+In this excercise we use two commits because it started in HEAD C1, and its neccesary create the commit C3
 
 ## EXCERCISE 2 Branching in Git
 ### git checkout -b bugFix
