@@ -74,3 +74,5 @@ Cherry-pick command is very useful to copy a selected commits below the current 
 
 ## EXCERCISE 2 Interactive Rebase Intro
 ### git rebase -i HEAD~4
+Like the context of the page say, cherry-pick is great when you know wich commits you want, but don't cover the cases where you don't know what commits you want. In this case, we go to use the command rebase, but with the -i option, with this option, git will open a window to show which commits you want to put under the pointer of the rebase, in this window you can reorder and select or unselect the commits to copy under the pointer.
+In this excercise, we need to put C3, C5 and C4 commits under the overHere pointer, but we know that it's located four commits up, or before to the current commit, for this reason we can put "git rebase -i HEAD~4", wich is the same as saying "git rebase -i overHere", next, we unselect the C2 commit and put the order: C3, C5, C4. Click in Confirm button and voilá, git does the magic for you
