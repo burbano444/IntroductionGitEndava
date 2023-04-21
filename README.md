@@ -14,6 +14,7 @@ In this excercise we use two commits because it started in HEAD C1, and its necc
 
 ## EXCERCISE 2 Branching in Git
 ### git checkout -b bugFix
+In this case, we use the checkout -b, this command is a mix between "git branch bugFix" and "git checkout bugFix", because the excercise ask that we create a branch bugFix, and switch to it
 
 ## EXCERCISE 3 Merging in Git
 ### git checkout -b bugFix
