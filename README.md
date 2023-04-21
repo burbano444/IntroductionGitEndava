@@ -6,7 +6,7 @@ The next text is the solution of the content proposed in next page [Learning Git
 And next, I put the commands and a short explanation of them:
 
 # PART 1: Introduction Sequence 
-## EXCERCISE 1: Introduction Sequence 
+## EXCERCISE 1: Introduction to Git Commits
 ### git commit
 asd
 ### git commit
