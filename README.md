@@ -40,11 +40,12 @@ And to continue, we combine in the branch main, the branch bugFix, its important
 ### git checkout bugFix
 1.3 excercise command (We switch to bugFix branch)
 ### git rebase main
-With this command, we move the base of the actual branch to another branch not without before create another snap, in this example, the branch bugFix create a new snap but the prompter bugFix mark the last snap of main like a father
+With this command, we move the base of the actual branch to another branch not without before create another snap, in this example, the branch bugFix create a new snap but the pointer bugFix mark the last snap of main like a father
 
 # PART 2: Ramping Up 
 ## EXCERCISE 1 Detach yo' HEAD
 ### git checkout C4
+We use git checkout before a name of snap (or ID number like we viewed in class) to put the pointer in those snap, in this case HEAD becomes the new pointer, and it's different of the pointer of the branches
 
 ## EXCERCISE 2 Relative Refs (^)
 ### git checkout bugFix^
