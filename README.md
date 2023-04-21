@@ -53,13 +53,19 @@ In this case, we can do the "detach of head" with another reference: the checkou
 
 ## EXCERCISE 3 Relative Refs #2 (~)
 ### git checkout HEAD^
+2.2 excercise command (Put the head in the father of snap that have the head pointer)
 ### git branch -f bugFix C0
+We use git branch, like as we saw before, to be a pointer to a snap of the changes (commits), and we use -f to reassign a branch to a commit directly, and next of it, you put the pointer and the branch to be marked, in this case, the pointer bugFix is reassigned to C0 commit
 ### git branch -f main C6
+In this case is the same of the last command, but the main pointer is reasigned to C6 commit (In this excercise, the page propouse another valid relative reference with "~", for example "git branch -f main HEAD~3" that move the pointer main to the great grandfather, or the father of the father of the father of HEAD pointer)
 
 ## EXCERCISE 4 Reversing Changes in Git
 ### git reset HEAD^
+We can use git reset to reverse changes by moving a branch pointer to it's father, you can use relative references to have more presition, or do the reset to another place, for example using HEAD^ or HEAD~1
 ### git checkout pushed
+2.2 excercise command (Switch the branch to the pushed pointer)
 ### git revert pushed
+Having diferences with reset command, the revert command is advancer, because instead of delete commits in the commits history, this command will create a new commit that inverses the changes specified
 
 # PART 3 Moving Work Around
 ## EXCERCISE 1 Cherry-pick Intro
